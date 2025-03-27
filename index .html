@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Study Hub – We Make Learning Easy! Get expert assignment help and personalized guidance to simplify your academic journey.">
+    <title>Study Hub - Assignment Help Made Easy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #2c3e50;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1,
+        h2 {
+            color: #2980b9;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: #e67e22;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .image-section img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .banner {
+            width: 100%;
+            height: 250px;
+            background: url('banner.jpg') no-repeat center center/cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .contact-icons {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .contact-icon {
+            margin: 0 15px;
+            text-align: center;
+        }
+
+        .contact-icon i {
+            font-size: 30px;
+            color: #2980b9;
+        }
+
+        .section {
+            background-color: #1abc9c;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .section:hover {
+            background-color: #16a085;
+        }
+
+        .content {
+            display: none;
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .diamond-section {
+            background-color: #f39c12;
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .diamond-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .diamond-section ul li {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .testimonials {
+            background-color: #e74c3c;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .testimonials blockquote {
+            font-size: 16px;
+            font-style: italic;
+            margin: 10px 0;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #2980b9;
+            color: white;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #ecf0f1;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Carousel Styles */
+        .carousel {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .carousel-wrapper {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-image {
+            min-width: 100%;
+            height: auto;
+        }
+
+        .carousel-nav {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .carousel-nav button {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="image-section">
+            <img src="logo.png" alt="Study Hub Logo">
+        </div>
+
+        <div class="banner"></div>
+
+        <h1>Study Hub – Your Partner in Assignment Help</h1>
+        <p>Welcome to <strong>Study Hub</strong>, your go-to platform for high-quality, reliable assignment help. We provide personalized assistance to ensure you excel in your studies!</p>
+
+        <h3>Contact Information</h3>
+        <div class="contact-icons">
+            <div class="contact-icon">
+                <a href="tel:+971555118378">
+                    <i class="fas fa-phone-alt"></i>
+                </a>
+                <p>+971555118378</p>
+            </div>
+            <div class="contact-icon">
+                <a href="mailto:studyhub@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <div class="contact-icon">
+                <a href="https://www.facebook.com/people/STUDY-HUB/61567308693625/">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+
+        <h2>How Study Hub Can Help You Succeed</h2>
+        <p>We offer expert assignment help with research papers, essays, case studies, and presentations. Get stress-free academic assistance from our team!</p>
+
+        <div class="section" onclick="toggleContent('whatIDo')">What We Do</div>
+        <div id="whatIDo" class="content">
+            <h2>Our Services</h2>
+            <ul>
+                <li><strong>Custom Research Papers</strong> – Well-structured
